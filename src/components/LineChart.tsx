@@ -29,8 +29,8 @@ const LineChart: React.FC<LineChartProps> = ({ historicalData }) => {
         fill: false,
         borderColor: 'rgb(75, 192, 192)',
         backgroundColor: 'rgba(75, 192, 192, 0.2)',
-        tension: 0.4, // Increased smoothness
-        pointRadius: 2, // Smaller points for readability
+        tension: 0.4, 
+        pointRadius: 2,
       },
       {
         label: 'Deaths',
@@ -54,8 +54,8 @@ const LineChart: React.FC<LineChartProps> = ({ historicalData }) => {
   };
 
   const options = {
-    responsive: true, // Chart will resize based on container size
-    maintainAspectRatio: false, // Allows better control of chart size in different layouts
+    responsive: true, 
+    maintainAspectRatio: false, 
     plugins: {
       title: {
         display: true,
